@@ -1,0 +1,14 @@
+/Users/mac/Desktop/c#/MyC#Projects/bin/Debug/net10.0/MyC#Projects
+/Users/mac/Desktop/c#/MyC#Projects/bin/Debug/net10.0/MyC#Projects.deps.json
+/Users/mac/Desktop/c#/MyC#Projects/bin/Debug/net10.0/MyC#Projects.runtimeconfig.json
+/Users/mac/Desktop/c#/MyC#Projects/bin/Debug/net10.0/MyC#Projects.dll
+/Users/mac/Desktop/c#/MyC#Projects/bin/Debug/net10.0/MyC#Projects.pdb
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.AssemblyInfoInputs.cache
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.AssemblyInfo.cs
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.dll
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/refint/MyC#Projects.dll
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.pdb
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.genruntimeconfig.cache
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/ref/MyC#Projects.dll
