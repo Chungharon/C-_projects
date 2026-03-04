@@ -12,3 +12,4 @@
 /Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.pdb
 /Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.genruntimeconfig.cache
 /Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/ref/MyC#Projects.dll
+/Users/mac/Desktop/c#/MyC#Projects/obj/Debug/net10.0/MyC#Projects.sourcelink.json
