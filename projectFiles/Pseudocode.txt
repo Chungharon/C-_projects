@@ -1,0 +1,39 @@
+BEGIN
+    PRINT "Group One Motion Calculator"
+    
+    INPUT velocity, angle, gravity, deltaTime
+    
+    // Mathematical Preparation
+    SET radians = angle * (PI / 180)
+    SET theoreticalTime = (2 * velocity * SIN(radians)) / gravity
+    SET theoreticalMaxH = (velocity^2 * SIN(radians)^2) / (2 * gravity)
+    SET range = velocity * COS(radians) * theoreticalTime
+    
+    SET currentTime = 0
+    SET simulatedMaxH = 0
+    
+    PRINT "Time | X-Pos | Y-Pos"
+    
+    // Simulation Loop
+    WHILE (TRUE)
+        SET x = velocity * COS(radians) * currentTime
+        SET y = (velocity * SIN(radians) * currentTime) - (0.5 * gravity * currentTime^2)
+        
+        IF (y < 0) THEN
+            BREAK LOOP
+        END IF
+        
+        IF (y > simulatedMaxH) THEN
+            SET simulatedMaxH = y
+        END IF
+        
+        PRINT currentTime, x, y
+        SET currentTime = currentTime + deltaTime
+    END WHILE
+    
+    // Final Results
+    PRINT "Time of Flight: ", theoreticalTime
+    PRINT "Range: ", range
+    PRINT "Max Height (Formula): ", theoreticalMaxH
+    PRINT "Max Height (Simulated): ", simulatedMaxH
+END

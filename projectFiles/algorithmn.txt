@@ -1,0 +1,15 @@
+Start.
+Display program title and group information.
+Input: Prompt the user to enter Initial Velocity ($v_{0}$), 
+    Launch Angle ($\theta$), Gravity ($g$), and Time Step ($\Delta t$).
+Convert the Launch Angle from degrees to radians using the formula: $Rad = \theta \times (\pi / 180)$.
+Calculate constants using kinematic formulas:Time of Flight: $T = (2 \times v_{0} \times \sin(Rad)) / g$Maximum Height (Theoretical): $H = (v_{0}^{2} \times \sin^{2}(Rad)) / (2 \times g)$Horizontal Range: $R = v_{0} \times \cos(Rad) \times T$
+Initialize simulation variables: 
+    set time $t = 0$ and $maxHeight = 0$.
+Simulation Loop:
+Calculate horizontal position: 
+    $x = v_{0} \times \cos(Rad) \times t$Calculate vertical position: $y = (v_{0} \times \sin(Rad) \times t) - (0.5 \times g \times t^{2})$If $y < 0$, Exit the loop (projectile hit the ground).If $y > maxHeight$, update $maxHeight$ to current $y$.Display current $t, x, y$.Increment $t$ by $\Delta t$.Repeat the loop.
+Output Results: 
+    Display Time of Flight, 
+    Range, and compare Theoretical vs. Simulated Maximum Height.
+End.
